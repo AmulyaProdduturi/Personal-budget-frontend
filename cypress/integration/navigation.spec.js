@@ -1,6 +1,6 @@
 context('Home', () => {
     beforeEach(() => {
-      cy.visit('http://104.131.187.125:3000/login')
+      cy.visit('https://personal-budget-amulya-backend.herokuapp.com/login')
     })
   
     it('should have welcome in the h1', ()=>{
